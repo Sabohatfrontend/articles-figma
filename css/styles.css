@@ -13,7 +13,7 @@
 
 body{
   background-color: #fefefe;
-  font-family:"Bebas Neue", "Roboto Condensed","Arial", sans-serif;
+  font-family: "Bebas Neue", "Roboto Condensed", "Arial", sans-serif;
   font-weight: 400;
 }
 
@@ -34,6 +34,24 @@ img{
   background-position: left top;
   background-repeat: no-repeat;
   /* background-size: cover; */
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+  .hero {
+    width: 600px;
+    height: 782px;
+    background-image: url(..//img/man-front-river.jpg);
+    /* background-attachment: fixed; */
+    background-position: left top;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+  }
 }
 
 .group {
@@ -156,7 +174,7 @@ img{
 
 .hero-footer-views-img {
   margin-right: 5px;
-  width: 14.67px;
+  width: 14px;
   height: 10px;
 }
 
