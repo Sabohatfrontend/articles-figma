@@ -23,7 +23,7 @@ img{
 }
 
 .blog{
-display: flex;
+  display: flex;
 }
 
 .hero {
@@ -41,7 +41,6 @@ display: flex;
 }
 
 .hero-text {
-
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
@@ -53,7 +52,6 @@ display: flex;
 }
 
 .hero-button {
-
   text-transform: uppercase;
   background-color: #1E90FF;
   padding: 12px 24px;
@@ -93,19 +91,19 @@ display: flex;
 }
 
 .main-header{
-padding-bottom: 24px;
-border-bottom: 1px solid #999999;
-margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #999999;
+  margin-bottom: 24px;
 }
 
 .hero-title {
   font-weight: 400;
   font-size: 24px;
-line-height: 29px;
-letter-spacing: 2px;
-color: #222222;
-margin-top: 0;
-margin-bottom: 0px;
+  line-height: 29px;
+  letter-spacing: 2px;
+  color: #222222;
+  margin-top: 0;
+  margin-bottom: 0px;
 }
 
 .hero-artical {
@@ -114,14 +112,14 @@ margin-bottom: 0px;
 }
 
 .hero-artical:not(:last-child){
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .hero-artical-img {
-width: 160px;
-height: 90px;
-border-radius: 4px;
-margin-right: 16px;
+  width: 160px;
+  height: 90px;
+  border-radius: 4px;
+  margin-right: 16px;
 }
 
 .hero-article-title {
@@ -131,7 +129,7 @@ margin-right: 16px;
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 2px;
-   color: #222;
+  color: #222;
 }
 
 .hero-article-title:hover{
@@ -145,38 +143,50 @@ margin-right: 16px;
 .hero-footer {
   display: flex;
 }
+
 .hero-footer-content:not(:last-child) {
   margin-right: 25px;
 
 }
 .hero-footer-img {
+  margin-right: 6px;
+  width: 14px;
+  height: 14px;
 }
+
+.hero-footer-views-img {
+  margin-right: 5px;
+  width: 14.67px;
+  height: 10px;
+}
+
 .hero-footer-time-text {
   font-family: "Roboto Condensed", "Arial",sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-color:#888;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color:#888;
 }
+
 .hero-footer-views-text {
   font-family: Roboto Condensed;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-color:#666;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color:#666;
 }
 
 .main-button{
   display: inline-block;
-padding: 12px 209px;
-background-color: rgba(30, 144, 255, 0.8);
-border-radius:4px;
-border: 0;
-font-family: "Roboto Condensed", "Arial", sans-serif;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-color: #FFFFFF;
+  padding: 12px 209px;
+  background-color: rgba(30, 144, 255, 0.8);
+  border-radius:4px;
+  border: 0;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
 }
 
 .main-button:hover{
