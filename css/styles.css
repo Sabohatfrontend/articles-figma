@@ -5,14 +5,14 @@
 .container{
   width: 100%;
   max-width: 1240px;
-  padding-left: 20px;
-  padding-right: 20px;
+ /* padding-left: 20px;
+  padding-right: 20px; */
   margin-right: auto;
   margin-left: auto;
 }
 
 body{
-  background-color: #fefefe;
+  background-color: #1E90FF;
   font-family: "Bebas Neue", "Roboto Condensed", "Arial", sans-serif;
   font-weight: 400;
 }
@@ -27,13 +27,14 @@ img{
 }
 
 .hero {
-  width: 600px;
-  height: 782px;
+   width: 600px;
+   height: 782px;
   background-image: url(..//img/man-front-river.jpg);
-  /* background-attachment: fixed; */
-  background-position: left top;
+ /* background-attachment: fixed; */
+  background-position: center center;
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover ;
+ margin-left: -43px;
 }
 
 @media
