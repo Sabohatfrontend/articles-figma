@@ -4,7 +4,7 @@
 
 .container{
   width: 100%;
-  max-width: 1240px;
+  max-width: 1200px;
   /* padding-left: 20px;
   padding-right: 20px; */
   margin-right: auto;
@@ -34,7 +34,7 @@ img{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover ;
-  margin-left: -43px;
+  margin-left: -63px;
 }
 
 @media
@@ -106,7 +106,10 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .main {
-  padding: 54px 54px 298px 54px;
+  /* padding: 54px 54px 298px 54px; */
+  padding-left: 54px;
+  padding-top: 54px;
+  padding-right: 54px;
 }
 
 .main-header{
@@ -127,6 +130,7 @@ only screen and (                min-resolution: 2dppx) {
 
 .artical-hero-content{
   margin-bottom: 23px;
+  width: 492px;
 }
 
 .hero-artical {
